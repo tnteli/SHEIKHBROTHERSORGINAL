@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHEIKH BROTHERS ORGINAL👑</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <div class="">
+        <img src="logo.jpg" style="width: 100px; height: 100px; border-radius: 50%; margin: 0px;" alt="">
+      <p class="" style="font-size: x-large; color: white;"> Tipping Industry Ka Baap! 🏏🔥 </p>
+      <h1 class="" style="font-size: x-large;color: white;">👑 SHEIKH BROTHERS ORGINAL 👑</h1>
+    </div>
+
+    <div class="content-wrapper">
+      <!-- <span id="countdown">60</span> -->
+      
+      <div class="points">
+        <ul>
+          <li><i class="fa fa-check-circle" aria-hidden="true"></i>82/86 IPL MATCHES PASSED RECORD 🏆 </li>
+          <li><i class="fa fa-check-circle" aria-hidden="true"></i>34/37 WOMANS BBL MATCHES PASSED RECORD 🏆</li>
+          <li><i class="fa fa-check-circle" aria-hidden="true"></i> 40/42 BBL MATCHES PASSED RECORD 🏆</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="button2">
+      <a href="https://t.me/+bcVAGXGK1rs3MWJl" class="button">
+        SUBSCRIBE NOW FOR FREE <i class="fa fa-telegram" aria-hidden="true"></i></a>
+    </div>
+    <!-- <div class="counter">FREE JOINING ENDS IN...<span id="countdown2">60 seconds</span></div> -->
+     <div style="color: aliceblue;" class="count">FREE JOINING ENDS IN...<span id="countdown2">60 seconds</span></div>
+    <h4> CRICKET KA SABSE BADA TIPPER</h4>
+           
+  </div>
+
+  <script>
+    let remainingSeconds = 60;
+    let remainingSeconds2 = 60; // Add this line for the second countdown
+  
+    function updateCountdown() {
+     
+      document.getElementById("countdown2").innerHTML = `${remainingSeconds2}`; // Update the second countdown
+  
+      remainingSeconds -= 1;
+      remainingSeconds2 -= 1; // Update the second countdown
+  
+      if (remainingSeconds < 0) {
+        remainingSeconds = 60; 
+      }
+      if (remainingSeconds2 < 0) { // Update the second countdown
+        remainingSeconds2 = 60;
+      }
+    }
+  
+    updateCountdown();
+    const countdownInterval = setInterval(updateCountdown, 1000);
+  </script>
+</body>
+</html>
